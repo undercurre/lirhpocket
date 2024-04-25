@@ -3,10 +3,10 @@
 // @rollup/plugin-commonjs  处理commonjs
 // rollup-plugin-terser    压缩umd规范的输出文件
 
+const terser = require("@rollup/plugin-terser");
 const resolve = require("@rollup/plugin-node-resolve");
 const typescript = require("@rollup/plugin-typescript");
 const commonjs = require("@rollup/plugin-commonjs");
-const { terser } = require("rollup-plugin-terser");
 
 module.exports = [
   {
