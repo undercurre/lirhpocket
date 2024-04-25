@@ -6,6 +6,9 @@ hero:
   name: "Lirhpocket"
   text: "Utils Library Basic Typescript"
   tagline: "Precipitation、Creative"
+  image:
+    src: /logo.png
+    alt: lirhpocket
   actions:
     - theme: brand
       text: Guide
